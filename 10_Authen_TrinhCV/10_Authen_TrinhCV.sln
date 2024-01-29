@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Authen_TrinhCV", "10_Authen_TrinhCV.csproj", "{8040B85A-A9B6-4F0E-9424-C17FF312692E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{7F108798-4F36-4E41-9106-7A989DA6263F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{C3982996-95F6-4932-92D3-66AF64C52A4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "..\Data\Data.csproj", "{780E4F90-B8AF-4FF2-8146-1EE777108736}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8040B85A-A9B6-4F0E-9424-C17FF312692E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8040B85A-A9B6-4F0E-9424-C17FF312692E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8040B85A-A9B6-4F0E-9424-C17FF312692E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8040B85A-A9B6-4F0E-9424-C17FF312692E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{780E4F90-B8AF-4FF2-8146-1EE777108736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780E4F90-B8AF-4FF2-8146-1EE777108736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780E4F90-B8AF-4FF2-8146-1EE777108736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780E4F90-B8AF-4FF2-8146-1EE777108736}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8040B85A-A9B6-4F0E-9424-C17FF312692E} = {C3982996-95F6-4932-92D3-66AF64C52A4A}
+		{780E4F90-B8AF-4FF2-8146-1EE777108736} = {7F108798-4F36-4E41-9106-7A989DA6263F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B0FB848-A0F3-4D6F-9361-70052B8DC52F}
+	EndGlobalSection
+EndGlobal
