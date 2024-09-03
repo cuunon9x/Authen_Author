@@ -9,7 +9,7 @@ namespace _10_Authen_TrinhCV.Services
         Task<UserRole> GetUserRoleAsync(int userId, int roleId);
         Task<UserRole> GetRolesForUserAsync(int userId);
         Task<string> GetRolenameAsync(string userName);
-        Task<int> CreateAsync(int userId,int roleId);
+        Task<int> CreateAsync(int userId, int roleId);
         Task<bool> DeleteAsync(int userId, int roleId);
     }
 }

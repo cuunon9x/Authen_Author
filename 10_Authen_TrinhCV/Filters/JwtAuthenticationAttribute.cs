@@ -1,9 +1,7 @@
 ﻿using _10_Authen_TrinhCV.Services;
 using _10_Authen_TrinhCV.ServicesCommon;
-using Ninject;
 using System.Net;
 using System.Security.Claims;
-using System.Web.Http.Dependencies;
 using System.Web.Http.Filters;
 using System.Web.Mvc;
 

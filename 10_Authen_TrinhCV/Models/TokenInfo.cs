@@ -3,7 +3,7 @@
     /// <summary>
     /// Security information on a web service access token
     /// </summary>
-    public class TokenInfo 
+    public class TokenInfo
     {
         public string Id { get; set; }
         public string ExpiresIn { get; set; }

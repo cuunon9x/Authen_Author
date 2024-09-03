@@ -35,6 +35,6 @@ namespace _10_Authen_TrinhCV.Controllers
             var token = _securityService.CreateToken(model.Username, roleName, user.Email, user.Id);
             return Ok(token);
         }
-      
+
     }
 }
